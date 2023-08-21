@@ -1,82 +1,105 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "EvaDB",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/evadb-dark.svg",
+    "light": "/logo/evadb-light.svg"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#9563FF",
-    "light": "#AE87FF",
+    "primary": "#E36E38",
+    "light": "#E36E38",
     "dark": "#0D001D",
     "background": {
       "dark": "#090014"
     },
     "anchors": {
       "from": "#FF7F57",
-      "to": "#9563FF"
+      "to": "#E36E38"
     }
+  },
+  "feedback": {
+    "suggestEdit": true,
+    "raiseIssue": true
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "https://join.slack.com/t/eva-db/shared_invite/zt-1i10zyddy-PlJ4iawLdurDv~aIAq90Dg"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Get Started",
+    "url": "https://github.com/georgia-tech-db/evadb"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Developer Guide",
+      "url": "contribute"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/georgia-tech-db/Eva"
     },
     {
       "name": "Community",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://join.slack.com/t/eva-db/shared_invite/zt-1i10zyddy-PlJ4iawLdurDv~aIAq90Dg"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "group": "Overview",
+      "pages": ["overview/welcome-to-evadb", "overview/quickstart", "overview/concepts", "overview/faqs"]
     },
     {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "group": "Use Cases",
+      "pages": ["usecases/image-classification", "usecases/qa-video", "usecases/image-similarity-search"]
     },
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
-    },
-    {
-      "group": "Endpoint Examples",
+      "group": "User Reference",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
+          {
+            "group": "SQL Query Language",
+            "pages": [
+              "evaql/create",
+              "evaql/delete",
+              "evaql/drop",
+              "evaql/explain",
+              "evaql/insert",
+              "evaql/load",
+              "evaql/rename",
+              "evaql/select",
+              "evaql/show"
+            ]
+          },
+          {
+            "group": "UDFs",
+            "pages": [
+              "udfs/hf",
+              "udfs/openai",
+              "udfs/yolo",
+              "udfs/custom"
+            ]
+          }
+      ]
+    },
+    {
+      "group": "Developer Guide",
+      "pages": [
+        "contribute/index",
+        "contribute/debugging",
+        "contribute/new-cmd",
+        "contribute/release"
       ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/evadb_ai",
+    "github": "https://github.com/georgia-tech-db/Eva",
+    "linkedin": "https://www.linkedin.com/company/evadb/"
   }
 }

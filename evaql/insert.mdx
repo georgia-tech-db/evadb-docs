@@ -1,0 +1,24 @@
+---
+title: Insert
+---
+
+## TABLE MyVideo
+
+MyVideo Table schema
+
+```sql
+    CREATE TABLE MyVideo
+    (id INTEGER,
+    data NDARRAY FLOAT32(ANYDIM));
+```
+
+## INSERT INTO TABLE
+
+Insert a tuple into a table.
+
+```sql
+INSERT INTO MyVideo (id, data) VALUES 
+    (1,
+        [[[40, 40, 40] , [40, 40, 40]],
+        [[40, 40, 40] , [40, 40, 40]]]);
+```
