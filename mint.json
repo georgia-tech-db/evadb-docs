@@ -53,11 +53,18 @@
   "navigation": [
     {
       "group": "Overview",
-      "pages": ["overview/welcome-to-evadb", "overview/quickstart", "overview/concepts", "overview/faqs"]
+      "pages": ["overview/welcome-to-evadb", "overview/quickstart", "overview/concepts"]
     },
     {
       "group": "Use Cases",
-      "pages": ["usecases/image-classification", "usecases/qa-video", "usecases/image-similarity-search", "usecases/object-detection"]
+      "pages": [
+        "usecases/content-generation",
+        "usecases/sentiment-analysis",
+        "usecases/predictive-analytics", 
+        "usecases/image-classification", 
+        "usecases/qa-video", 
+        "usecases/image-similarity-search", 
+        "usecases/object-detection"]
     },
     {
       "group": "User Reference",
