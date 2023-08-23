@@ -1,0 +1,17 @@
+---
+title: Installing EvaDB
+---
+
+EvaDB currently officially supports x86_64, aarch64 (ARM) for Linux, and Apple silicon (M1) hardware.
+
+EvaDB supports Python (versions >= 3.8). To install EvaDB, we recommend using the pip package manager:
+
+```bash
+pip install evadb
+```
+
+### Installation from source
+```bash
+git clone https://github.com/georgia-tech-db/evadb.git && cd evadb
+pip install -e ".[dev]"           # build and install the EvaDB package
+```

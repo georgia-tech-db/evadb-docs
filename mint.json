@@ -57,7 +57,7 @@
     },
     {
       "group": "Use Cases",
-      "pages": ["usecases/image-classification", "usecases/qa-video", "usecases/image-similarity-search"]
+      "pages": ["usecases/image-classification", "usecases/qa-video", "usecases/image-similarity-search", "usecases/object-detection"]
     },
     {
       "group": "User Reference",
